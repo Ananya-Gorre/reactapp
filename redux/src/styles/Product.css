@@ -1,0 +1,54 @@
+.product-page {
+  background-color: #333; 
+  color: white; 
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #100f0f; 
+  color: white; 
+  margin-bottom: 20px;
+  height: 300px; 
+  width: 200px;
+}
+
+.product-card-title {
+  font-size: 16px;
+  margin-bottom: 10px; 
+}
+
+.product-card-text {
+  font-size: 14px; 
+  color: #888; 
+}
+
+
+.product-card-button {
+  background-color: #333; 
+  border: white;
+  color: white; 
+}
+
+.product-card-button:hover {
+  background-color: #00b33687; 
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.page-number {
+  padding: 10px;
+  margin: 5px;
+  background-color: #111112;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.page-number.active {
+  background-color: #0056b3; /* Color for the active page */
+}
+

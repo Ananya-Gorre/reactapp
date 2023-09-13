@@ -1,0 +1,57 @@
+.form-container {
+  background-color: #333;
+  color: #242020;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+body {
+  background-color: black;
+  color: white; 
+}
+
+
+label,
+input[type="username"],
+input[type="email"],
+input[type="password"] {
+  background-color: #f0e6e6;
+  color: #191616;
+  border: none;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+
+.error-message {
+  background-color: #151414;
+  color: #ec0b0b;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+
+button[type="submit"] {
+  background-color: #040e18;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: #ff6961;
+}
+
+  

@@ -1,0 +1,20 @@
+/* PaymentSuccessDialog.css */
+
+.dark-modal {
+    background-color: black; /* Set the background color to black */
+    color: rgb(11, 10, 10); /* Set the text color to white */
+    border: none; /* Remove borders */
+    border-radius: 8px; /* Add border radius if desired */
+    max-width: 400px; /* Adjust the width as needed */
+    margin: auto; /* Center the modal */
+    padding: 20px; /* Add padding to the modal content */
+  }
+  
+  .dark-overlay {
+    background-color: rgba(27, 26, 26, 0.7); /* Dark overlay background */
+  }
+  .dark-text {
+    color: rgb(11, 11, 11); /* Set the text color to white */
+    /* Add any other styles you want for dark text here */
+  }
+  
